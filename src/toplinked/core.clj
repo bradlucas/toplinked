@@ -1,5 +1,5 @@
 (ns toplinked.core
-  (:use [linkedin-connections.core :as linkedin :only [get-linkedin-emails]])
+  (:use [linkedin-connections.core :as linkedin :only [get-emails]])
   (:use [clojure.set :as set])
   (:require [clojure.java.io :as io])
   (:gen-class :main true))
@@ -16,7 +16,7 @@
 ;; in the linkedin list
 (defn get-new [toplinked linkedin]
   (let [t (get-toplinked-emails toplinked)
-        l (linkedin/get-linkedin-emails linkedin)]
+        l (linkedin/get-emails linkedin)]
     (difference (set t) (set l))))
 
 
