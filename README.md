@@ -24,6 +24,16 @@ To find the new emails.
 
 `toplinked` is available as a Maven artifact via [Clojars](httpd://clojars.org/org.clojars.blucas/blinkedin-connects).
 
+## Versions
+
+### 1.0.1
+
+- Updated versions
+
+### 1.0.0 
+
+- Original version
+
 ## License
 
 Distributed under the Eclipse Public License, the same as Clojure.
