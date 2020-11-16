@@ -1,5 +1,7 @@
 # toplinked
-===========
+
+[![Clojars Project](https://img.shields.io/clojars/v/org.clojars.blucas/toplinked.svg)](https://clojars.org/org.clojars.blucas/toplinked)
+
 
 A small example using linkedin-connections to find the emails in the latest toplinked email list that are not currently in a LinkedIn connections export.
 
